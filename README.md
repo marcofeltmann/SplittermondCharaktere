@@ -1,4 +1,6 @@
-    For non-native German speakers: This one simply hosts background informations for fictional pen-and-paper roleplay game characters, created for the RPG Splittermond released by Uhrwerk Verlag. I guess this information has no relevance for you. 
+    For non-native German speakers: This one simply hosts background informations for fictional pen-and-paper
+    roleplay game characters, created for the RPG Splittermond released by Uhrwerk Verlag. 
+    I guess this information has no relevance for you. 
 
 # Splittermond Charaktere
 Beinhaltet Hintergrundinformationen zu meinen Splittermond Charakteren.  
