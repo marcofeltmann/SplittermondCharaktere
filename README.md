@@ -1,0 +1,2 @@
+# SplittermondCharaktere
+Beinhaltet Hintergrundinformationen zu meinen Splittermond Charakteren
