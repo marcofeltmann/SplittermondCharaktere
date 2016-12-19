@@ -1,13 +1,30 @@
-\documentclass{report}
+\documentclass[a4paper]{scrreprt}
 
-\usepackage[ngerman]{babel}
+\usepackage{ngerman}
+\usepackage{droid}
+
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 
-\usepackage[babel,german=swiss]{csquotes}
-
 \author{Marco Feltmann}
-\title{Hintergrundgeschichte des Charakters \\ \enquote{Sonor} }
+\title{ {Sonor}, Sandläufer der Tarr }
+\subject{Hintergrundgeschichten}
+
+\usepackage{hyperref}
+\usepackage{varioref} 
+
+\usepackage{csquotes}
+
+% Mehrzeilige Kommentare nutzen
+\newcommand{\comment}[1]{}
+
+% Fancy Capitals
+\input AnnSton.fd
+\def\capitalsfont{\usefont{U}{AnnSton}{xl}{n}\selectfont}
+\usepackage{lettrine}
+\newcommand{\capital}[2]{\lettrine[lines=8]{\capitalsfont #1}{#2}}
+
+\pagestyle{headings}
 
 \begin{document}
 
@@ -15,31 +32,103 @@
 	
 	\tableofcontents
 
-	\chapter{Prolog}
-Alle Sandrasselottern besitzen ein hochpotentes Schlangengift. Das Gift enthält
-unter anderem ein hochwirksames Hämotoxin (Blutgift) und ein weniger wirksames
-Neurotoxin (Nervengift). Für die Störung der Blutgerinnung ist das Enzym Ecarin
-verantwortlich. Das Gift ist im Kreislaufsystem sehr stabil, sodass die
-Ungerinnbarkeit des Blutes über Wochen hin anhalten kann. Nach einem Biss kommt
-es innerhalb von ein bis sechs Stunden zu unstillbaren Blutungen aus der
-Bisswunde sowie über die Schleimhäute, wodurch Blut aus Nase, Mund und Darm
-austritt. Die Haut färbt sich um die Bissstelle herum. Das gebissene Glied
-schwillt extrem an und es entstehen Nekrosen. Weitere Folgen können
-Bluterbrechen, blutiger Speichel und Blutergüsse unter der Haut, sowie
-Herzrhythmusstörungen, Blutdruckabfall, Hirnblutungen und Nierenschäden sein. Es
-können auch Lähmungserscheinungen und ein Schockzustand auftreten. Ohne
-Antiserumbehandlung kommt es in den meisten Fällen zum Tode.
+	\part{Prolog}
+	
+	\capital{U}{ngefähr} 16 Jahre vor den in dieser Chronik aufgezeichneten Abenteuern war es eine schwere Zeit in der Wüste Surmakar. Zugegebenrmaßen gab es in Surmakar selten einfache Zeiten, Schwierigkeiten waren der übliche Zustand in dieser Umgebung und daher nichts Verwunderliches. 
+	Unüblich hingegen war die Tatsache, dass das leitende Tarr-Paar in diesem Jahr keinen Welpen gebar, so dass das Privileg der Stammeserhaltung an die in der Rangordnung direkt unter ihnen angesiedelte junge Familie ging.
+	
+	Sonor sollte der erste Welpe dieses Stammes werden, der nicht die Privilegien der Leit-Tarr hatte, sondern als Sohn zweier Schwarzkamelzüchter aufwuchs.
 
-Gegen das Gift der Ägyptischen Sandrasselotter gibt es kein spezielles Antiserum
-(Antivenin), bei einem Biss wird entsprechend ein allgemein bei Echis-Arten
-nutzbares Mittel eingesetzt.
+	
+	\section{Frühe Kindheit}
+	
+	\section{Jugend}
+	
+	\section{Der Weg des Sandläufers}
+	\subsection{Schicksalhafte Begegnung}
+	Auf einer seiner Jagden zur Übung und Orientierung fand er auf einem Felsen liegend eine Gestalt, kaum einen viertel Meter lang und dünn wie eine Kralle. Diese Schlange mit rotbraunem Schuppenkleid und sandfarbener Bauchseite wirkte auf ihn wehrlos.
+	Als er sie so ansah, hörte er seinen Großvater ihn auffordern, das Tier zu füttern damit es wieder zu Kräften komme.
+	Er kniete sich auf ein Bein ab, umgriff vorsichtig das Wesen, welches zwar auf ihre Art energisch protestierte, sich aber mitnehmen ließ.
+	
+	Bei dieser Jagd konzentrierte sich Sonor auf kleinere Lebewesen wie Wüstenmäuse und Eidechsen. Es fiel ihm schwer diesen winzigen Spuren zu folgen, doch war ihm bewusst, dass auch das Aufspüren und Verfolgen kleinster ungenauester Spuren eine Grundvoraussetzung für jeden Sandläufer ist.
+	
+	Als er abends zum Lagerplatz zurückkehrte, hatte er einen Geier für den Stamm besorgt und begann, sein Mündel die erlegten Kleintiere zum Fraß zu reichen und eine kleine Schale mit Wasser neben sie zu stellen. 
+	
+	\subsection{Ein zwielichtiger Händler}
+	Niemand in seinem Stamm schien sich so richtig für seinen Fund zu interessieren, der nun mittlerweile durch gute Fütterung fast 30cm lang und so dick wie sein Zeigefinger war.
+	Mittlerweile hatte er sich einen weiteren Lederbeutel gefertigt, in den er sie packte wenn eine Jagd bevor stand.
+	
+	Nach langer Zeit kreuzte ein fahrender Händler den Stamm und versuchte seine Waren feil zu bieten.
+	Sonor hatte eigentlich nichts für den Ramsch übrig und die übrigen Stammesmitglieder beschwerten sich über die unerhört hohen Preise, dennoch ging er hin und hielt Ausschau nach irgend einem Utensil für \enquote{Wadjet}, wie er seine Begleitung auf Geheiß der ersten Stammesführerin nannte.
+	Als ihm nicht so recht einfiel was er kaufen sollte, fragte er den Händler direkt nach einer Empfehlung.
+	Dieser schien spontan sehr freundlich zugetan und wollte das Tier einmal sehen, um sich einen Überblick über die Größe zu machen. Schließlich wolle er das perfekte Ding für sie heraussuchen, so waren zumindest seine Worte.
+	
+	Sonor reicht ihm Wadjet und wundert sich noch, warum der Händler das Tier so weit in der Mitte greift und wieso er versucht sie in einen Jutebeutel zu stecken. 
+	Einen Transportbeutel hatte er doch schon für sie und seiner Einschätzung nach war Leder um Längen besser geeignet als Stoff.
+	Bevor er Zeit hatte zu überlegen was hier eigentlich gerade passierte, biss Wadjet dem Händler bereits kräftig in den Muskel zwischen Daumen und Zeigefinger der linken Hand. Aufschreiend ließ dieser das Tier fallen, welches sich sofort auf Sonor zu schlängelte und sich in den Lederbeutel heben ließ.
+	
+	Der Händler wickelte schimpfend und keifend den Beutel um die Bisswunde, wobei sie für Sonor wirklich harmlos aussah. 
+	Das Leitpaar konnte den Händler nur mit viel Mühe davon überzeugen, die Weiterreise erst am späten Nachmittag anzutreten statt sofort in die Mittagshitze zu starten.
+	Dem Mann ging es mit voranschreitender Zeit zusehends schlechter. 
+	Obwohl die Bisswunde mittlerweile fast zwei Stunden alt war und bereits zu bluten aufgehört hatte, fing sie plötzlich und unvermittelt wieder an.
+	Die Blutung aus der Hand wurde mit der Zeit so stark, dass jeder Verband innerhalb von Minuten komplett getränkt war. 
+	Zusätzlich traten im zu späterer Stunde, an eine Weiterfahrt war in seinem Zustand nun gar nicht mehr zu denken, auch noch aus Nase, Ohren, Augen und Mund Blut aus.
+	Einige Mitglieder des Stammes behaupten gesehen zu haben, dass sogar seine Hose am Hintern voller Blut war, als sich der Händler einmal drehte um an dem Blut nicht zu ersticken.
+	
+	Der Stamm pflegte den Händler, versorgte dessen Kamele und hielt zusätzlich noch den Stammesbetrieb so gut es eben ging aufrecht. Der Zustand des Erkrankten besserte sich nicht. Die Bissstelle sah mittlerweile merkwürdig verfärbt aus und Daumen sowie Zeigefinger der linken Hand waren stark angeschwollen und komplett schwarz geworden.
+	Auch bekam der Mann am ganzen Körper Blutergüsse unter der Haut, so als schlage eine unsichtbare Macht wahllos auf ihn ein.
+	Mit seinem Verstand schien es auch nicht mehr so weit her. 
+	Er betete zu den unterschiedlichsten Göttern sie mögen ihm seine Verhandlungstaktiken doch vergeben und ihn erlösen von diesem Leiden.
+	Sonor missfiel die Wortwahl des Fremden. 
+	So unpräzise Wünsche konnten zu einer Erfüllung führen, die eventuell nicht so ganz dem entsprechend, wie der Wünschende sich das eigentlich gedacht hatte.
+	 
+	Er sollte Recht behalten. 
+	Nach mehr als fünf Tagen und Nächten voller Blut, unzähliger zusätzlicher Blutergüsse und sogar einer offenbar gelähmten Körperhälfte starb der Mann im Stammeslager. 
+	Getreu ihren Prinzipien haben die Stammesmitglieder den Händler ehrenvoll beigesetzt.
+	Als es dann an die Aufteilung der Besitztümer ging, wurden alle Lebensmittel des Mannes beseitigt. 
+	Es sah zwar wie eine überirdische Macht aus, die ihn geißelte, aber Sicherheit geht in der Surmakar vor.
+	Wer weiß, ob nicht ein vergiftetes Lebensmittel derartige Auswirkungen haben kann. 
+	
 
-\chapter[Datum erstes Spiel]{Das erste Abenteuer}
-\section{Die Bitte des Geistältesten}
+	\subsubsection{Referenzen aus der Anderswelt}
+	
+	Gemäß Wikipedia wird das Gift der Ägyptischen Sandrasselotter, welche Wadjet zum Vorbild stand, wie folgt beschrieben:
+	
+	\begin{quotation}
+		\texttt{Alle Sandrasselottern besitzen ein hochpotentes Schlangengift. Das Gift enthält	unter anderem ein hochwirksames Hämotoxin (Blutgift) und ein weniger wirksames Neurotoxin (Nervengift). Für die Störung der Blutgerinnung ist das Enzym Ecarin verantwortlich. Das Gift ist im Kreislaufsystem sehr stabil, sodass die	Ungerinnbarkeit des Blutes über Wochen hin anhalten kann. Nach einem Biss kommt es innerhalb von ein bis sechs Stunden zu unstillbaren Blutungen aus der
+		Bisswunde sowie über die Schleimhäute, wodurch Blut aus Nase, Mund und Darm
+		austritt. Die Haut färbt sich um die Bissstelle herum. Das gebissene Glied
+		schwillt extrem an und es entstehen Nekrosen. Weitere Folgen können
+		Bluterbrechen, blutiger Speichel und Blutergüsse unter der Haut, sowie
+		Herzrhythmusstörungen, Blutdruckabfall, Hirnblutungen und Nierenschäden sein. Es
+		können auch Lähmungserscheinungen und ein Schockzustand auftreten. Ohne
+		Antiserumbehandlung kommt es in den meisten Fällen zum Tode.}
 
-\section{Seltsame Ereignisse}
-\subsection{Albin}
-\subsection{Mensch}
+		\texttt{Gegen das Gift der Ägyptischen Sandrasselotter gibt es kein spezielles Antiserum (Antivenin), bei einem Biss wird entsprechend ein allgemein bei Echis-Arten	nutzbares Mittel eingesetzt.}
+\end{quotation}
+
+\section{Die Bitte des Ältesten Geistheilers}
+
+\part{Der Chroniken erster Teil}
+\capital{D}{ie} Reise mit dem Schiff von Surmakar bis Ioria dauert dem jungen Vargen viel zu lange. 
+Vor Allem stellt sich die Fahrt für ihn, der nur Sandmeere und Dünen kennt, als sehr eintönig und unliebsam heraus.
+Das Auf und Ab des Schiffes in den Wellen erinnert ihn ein wenig an das Geschaukel auf den Schwarzkamelen, die er als junger Welpe geritten war, bevor das Missgeschick mit seinen Klauen passierte.
+Allerdings brachte die Unruhe der Kamelreise ihn von allein auf den Gedanken, dass die Fortbewegung zu Fuß die einzige von der Natur vorgegebene Art und Weise des Reisens sei.
+Diese Schifffahrt festigt seine Meinung diesbezüglich noch weiter.
+ 
+Nach einer gefühlten Ewigkeit kann Sonor endlich den Hafen Iorias sehen.
+Gespannt wartet er auf die Ankunft des Schiffes und brennt voller Eifer darauf, den Auftrag auszuführen und das Orakel wegen der Zeichen der Wüste zu befragen, zu denen sich die Geister der Ahnen so beharrlich ausschwiegen. Selbstverständlich brennt auch sein eigenes Ziel in ihm und er hofft auf einen Fingerzeig zum Lebensraum seines Geisttieres.
+
+Vom Hafen ist es noch ein Stück in die Stadt. Der Boden sagt seinen Füßen überhaupt nicht zu, er ist viel zu hart und viel zu kalt. 
+Wobei die Behauptung \enquote{zu kalt} für das gesamte Areal hier zutrifft.
+Interessiert blickt er sich auf dem Weg in die Stadt um. Kreaturen unterschiedlichster Art und Abstammung tummeln sich auf den Straßen, ihre Kleidung so verschieden wie ihre Herkunft. Ihm wird klar, dass er sich hier an einem zentralen Punkt befindet, der die reisenden Händler zu ihren Erzählungen anregt und die unterschiedlichen Wesen Lorakis' hier zusammen führt. 
+
+\chapter[Datum erstes Spiel]{Ioria}
+% Hier ein Zitat über Ioria?
+
+\section{Seltsame Resonanzen}
+\subsection{Lian, feurige Albin des Phönixordens}
+\subsection{Volton, alchemiekundiger Mensch}
 
 \section{Ärger in der Stadt}
 
@@ -48,6 +137,11 @@ nutzbares Mittel eingesetzt.
 \section{Erste Ermittlungen}
 
 
-\chapter[Datum zweites Spiel]{Das zweite Abenteuer}
+\chapter[Datum zweites Spiel]{Ioria}
+% Hier ein anderes Zitat über Ioria?
+
+\section{Weitere Resonanzen}
+\subsection{Niamh, kleine Albin der Straße}
+\subsection{Kharr, neugieriger Vaigarr-Kämpfer}
 
 \end{document}
